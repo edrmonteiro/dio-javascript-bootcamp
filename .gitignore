@@ -17,3 +17,5 @@ bin-release/
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 ES6Advanced/12-Mocha/node_modules
+ES6Advanced/13-Chai/node_modules
+ES6Advanced/14-Sinon/node_modules
