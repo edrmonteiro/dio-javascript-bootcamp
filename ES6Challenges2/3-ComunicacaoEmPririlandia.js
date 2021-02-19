@@ -23,3 +23,9 @@ Exemplo de Entrada	Exemplo de Saída
 0123456789
 
 */
+const n = gets();
+var nInv = '';
+for (let i = n.length-1; i >= 0 ; i--){
+  nInv += n[i]
+}
+console.log(nInv);
