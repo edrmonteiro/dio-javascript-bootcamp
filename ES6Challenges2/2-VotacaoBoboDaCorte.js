@@ -31,10 +31,22 @@ S
 N
 */
 
-const n = gets();
-var nInv = '';
-for (let i = n.length-1; i >= 0 ; i--){
-  nInv += n[i]
+const n = parseInt(gets());
+var v = new Array(n);
+for (let i=0;i < n;i++){
+  v[i] = parseInt(gets());
 }
-//var num = lines[0].toSting();
-console.log(nInv);
+
+const rafael  = Number(v.shift());
+
+let  first = true;
+
+for(let i = 0; i < n;i++) {
+  const item  = Number(v[i]);
+  
+  if ( item > rafael ) {
+    first = false;
+  }
+};
+
+console.log(first ? "S" : "N");
