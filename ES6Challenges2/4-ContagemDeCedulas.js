@@ -48,14 +48,10 @@ Exemplo de Entrada	Exemplo de Saída
 
 let notas = [100, 50, 20, 10, 5, 2, 1];
 let nnotas = [0, 0, 0, 0, 0, 0, 0];
-let quantia = 89;
+let quantia = parseInt(gets());
 let resto = quantia;
 
-// while (resto >= 1){
-//  nota = notas.findIndex(value => value <= resto);
-//  nnotas[nota] = Math.trunc(resto / notas[nota]);
-//  resto = resto % notas[nota];
-// }
+
 for (let i=0; i < notas.length; i++) {
   while (resto >= notas[i]){
     resto -= notas[i];
