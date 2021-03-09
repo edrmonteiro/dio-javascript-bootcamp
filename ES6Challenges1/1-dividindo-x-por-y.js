@@ -18,11 +18,11 @@
 // divisao impossivel
 // 0.0
 
-//let limit = parseInt(gets());
-let limit = 1;
+let limit = parseInt(gets());
+//let limit = 1;
 for (let i = 0; i < limit; i++) {
-    //let line = gets().split(" ");
-    let line = "1 2".split(" ");
+    let line = gets().split(" ");
+    //let line = "1 2".split(" ");
     let X = parseInt(line[0]);
     let Y = parseInt(line[1]);
     if (Y == 0) {

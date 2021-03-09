@@ -18,27 +18,6 @@ laranja pera laranja pera pera
 carne laranja picles suco
 laranja pera
 */
-//let totalItems = parseInt(gets());
-// let totalItems = 2;
-// lista = ["carne laranja suco picles laranja picles", "laranja pera laranja pera pera"];
-// let itens = []
-// for (let i = 0; i < totalItems; i++) {
-//   //let linha = gets();
-//   let linha = lista[i];
-//   let produtos = linha.split(" ").sort();
-//   let itensUnicos = [];
-//   let ultimo = "";
-//   for (let i = 0; i < produtos.length; i++) {
-//     if (produtos[i] != ultimo) {
-//         itensUnicos.push(produtos[i]);
-//     }
-//     ultimo = produtos[i];
-//   }
-//   //console.log(itensUnicos);
-//   let resposta = itensUnicos.join(" ");
-//   console.log(resposta);
-// }
-// itens.sort();
 
 
 let totalItems = parseInt(gets());
