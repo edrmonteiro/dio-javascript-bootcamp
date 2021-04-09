@@ -29,18 +29,19 @@ the quick brown fox jumps over the lazy dog
 
 
 while(true){
-    let count = 0;
-    let vogais = gets();
-    if(!vogais){
-      break;
-    }
-    let frase = gets();
-    for (let idx in frase){
-      if (vogais.indexOf(frase[idx]) > -1){
-          count++;
-      }
-    }
-    console.log(count);
+  let count = 0;
+  let vogais = gets();
+  if(!vogais){
+    break;
   }
-  
+  let frase = gets();
+  for (let idx in frase){
+    for (let i in vogais){
+      if (vogais[i] === frase[idx])
+        count++;
+    }
+  }
+  console.log(count);
+}
+
 
