@@ -24,8 +24,10 @@ Exemplo de Entrada	Exemplo de Saída
 
 */
 const n = gets();
-var nInv = '';
-for (let i = n.length-1; i >= 0 ; i--){
-  nInv += n[i]
-}
+//const n = "1234";
+// var nInv = '';
+// for (let i = n.length-1; i >= 0 ; i--){
+//   nInv += n[i]
+// }
+nInv = n.split("").reverse().join("");
 console.log(nInv);
